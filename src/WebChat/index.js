@@ -25,7 +25,7 @@ function WebChat() {
       <Route path="/Signup" exact component={SignupPage} />
       <Route path="/login" exact component={Loginpage} />
     
-      <PrivateRoute path="/GupShup" exact component={HomePage} />
+      <PrivateRoute path="/WebChat" exact component={HomePage} />
     </Router>
   );
 }

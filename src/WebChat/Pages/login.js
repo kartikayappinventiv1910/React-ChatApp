@@ -101,7 +101,7 @@ export default function Loginpage() {
   };
 
   if (auth.authenticated) {
-    return <Redirect to={"/Gupshup"} />;
+    return <Redirect to={"/WebChat"} />;
   }
   // else {
   //   alert("Not A User");

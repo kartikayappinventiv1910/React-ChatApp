@@ -113,7 +113,7 @@ export default function SignupPage() {
   };
 
   if (auth.authenticated) {
-    return <Redirect to={"/Gupshup"} />;
+    return <Redirect to={"/WebChat"} />;
   }
 
   return (
